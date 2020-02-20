@@ -171,47 +171,47 @@ hr{
 /*Pour tous les appareils équipés d'écrans et dont la taille est inférieure à 780px*/
 
 @media screen and (max-width: 768px){
-	.global{
-		/*display: flex;*/
+	
+	.page{
+		margin: 0;
+		padding: 0;
+		width: 100%;
+		flex-wrap: wrap-reverse;
 		
 	}
 	.cote-droit{
 		
-		/*justify-content: flex-start;
-		margin-left: 2%*/
+		justify-content: flex-start;
+		margin-left: 2%
 	}
 	.photop{
-		
+		display: none;
 	}
 
 	.passe-temps{
 		
 	}
 	.titre{
-		
+		text-align: center;
 	}
 	.lab2{
-		/*margin-bottom: 20px;
+		margin-bottom: 20px;
 		display: flex;
-		flex-direction: column;*/
+		flex-direction: column;
 	}
 	.identité{
-		
+		display: flex;
+		flex-direction: start;
 	}
-	.page{
-		width: 500px;
-		flex-direction: column;
-		margin: 0;
-		padding: 0; 
 		
-		
-	}
 	.gauche{
-		
+		width: 100%
 	}
 	
 @media all and (max-width: 1024px){
-
+	.page{
+		width: auto;
+	}
 }
 
 
