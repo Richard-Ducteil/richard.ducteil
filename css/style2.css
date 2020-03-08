@@ -1,0 +1,262 @@
+body{ /* police utiliser pour le cv */
+
+	font-family: arial, sans-serif;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0 ;
+}
+
+.page{ /* méthode de disposition (flexbox)*/
+	
+	
+	display: flex;
+	/*width: 100%;  largeur du contenue de la boite */
+
+}
+
+.photop{ /*photo du cv */
+	margin:auto;
+	display: block;
+	width: 200px;
+	height: 200px;
+	text-align: center;
+	border-radius: 100px;
+	border :3px solid;
+	border-color: rgba(0,0,0,0.2);
+	margin-bottom: 60px;
+	position: relative; /* pour bouger le block sans bouger le contenu a l'intérieur */
+	top: 10px;
+	background-image: url(../images/photop.jpg);
+	background-size: 206px;
+	background-repeat: no-repeat;
+	background-position: center;
+    
+}
+.gauche{   /*parti orange du CV*/
+
+
+	padding-top: 50px;
+	position: relative;
+	background-color: #FE9C00;/*couleur orange*/
+	color: #000000;/*couleur noir*/
+	width: 70%;/* largeur parti orange*/
+	font-size:16px;
+
+}
+.titre{ /* classe pour les titres parti orange (contact, à propos de moi,  loisirs)*/
+	
+	background-color: #7F7F7F; /* couleur grise */
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #FE9C00; /* couleur orange */
+
+}
+h1.titre-droite{
+	margin-bottom: 5px;
+}
+
+.passe-temps{ /* parti orange loisirs*/
+	
+	text-align: center;	
+}
+
+i{	
+	position: relative;
+	bottom: 0;
+	font-size: 10px;
+	padding: 11px;
+	color: #FE9C00;
+
+
+}
+.passe-temps i {
+
+	margin: 30px;
+	margin-bottom: 40px;
+	border-color: #7F7F7F;/* couleur grise */
+	border :2px solid;
+	color: #8F8F8F;
+	border-radius: 66px;
+	width: 33px;
+	height: 33px;
+	padding: 5px 5px 5px 5px;
+	font-size: 24px;
+	text-align: center;
+}
+.identité{
+
+	font-size: 15px;
+	margin: 40px;
+	display: flex;
+	flex-direction: column;
+
+}
+
+.nom{ /*ducteil*/
+	
+	
+	font-weight: bold; /* en gras */
+    color: #FE9C00; /*couleur orange */
+    font-size: 40px; /* taille du texte */
+    text-transform : uppercase; /* caractere en majuscule */
+}
+.prenom{ /*richard*/
+    
+    
+	font-weight: bold;
+    font-size: 40px;
+    text-transform : uppercase; /* caractère en majuscule */
+
+}
+.trait{ /* classe spécifique */
+	border-top: 2px solid;/* épaisseur du trait */
+	width: 50px;/* pour faire un petit trait en bas de developpeur web junior */
+	color: #FE9C00;/* couleur orange */
+	padding-top: 70px; /* ajustement de la hauteur */
+	
+}
+hr{
+	border-top: 2px solid;/*épaisseur des traits */
+	width: 100%;/* qui prend toute la page */
+	color: #FE9C00; /*couleur orange*/
+}
+.titre2 i{/* tous les gros titre côté droit */
+
+	font-size: 24px;
+	color:#FE9C00;/* couleur orange */
+	padding-right: 30px;
+}
+
+
+.global{
+
+	display: block;
+	flex-direction: column;
+	margin: 35px;
+	font-size: 19px;
+	padding-top: 35px;
+}
+.date{
+	
+	float: left;
+	padding-top: 5px;
+	
+	
+}
+.cote-droit{
+	
+	margin-bottom: 75px;
+    margin-left: 350px;
+    margin-top: 15px;
+    
+}
+.lieu{
+	text-indent: 10px;
+	margin: 2%;
+	font-weight: bold;
+	font-size: 12px;
+}
+.lab1{
+	display: inline-block;
+	flex-wrap: wrap;
+	margin: 50px;
+}
+.lab2{
+
+	display: inline-block;
+	flex-wrap: wrap;
+	margin: 60px;
+
+}
+.info-mobile{
+		display: none;
+	}
+/*Pour tous les appareils équipés d'écrans et dont la taille est inférieure à 780px*/
+
+@media screen and (max-width: 768px){
+	.info-mobile{
+		display: block;
+		margin-bottom: 10px;
+	}
+	.nom-mobile{
+		text-transform: uppercase;
+		color: #A52A2A; /* couleur rouge bordeau du nom version mobile */
+	}
+	.info{
+		display: none;
+	}
+	.trait{
+		display: none;
+	}
+	.nom{
+		color: #000000; /* couleur noir version mobile */
+	}
+	.desktop{
+		text-align: center;
+	}
+	.titre-droite{
+		text-align: center;
+	}
+
+	.page{
+		margin: 0;
+		padding: 0;
+		width: 100%;
+		flex-wrap: wrap-reverse;
+		
+	}
+	.cote-droit{
+		
+		justify-content: flex-start;
+		margin-left: 2%;
+
+	}
+	.titre{
+		text-align: center;
+	}
+	.lab2{
+		margin-bottom: 20px;
+		display: flex;
+		flex-direction: column;
+	}
+	.identité{
+		display: flex;
+		flex-direction: start;
+	}
+		
+	.gauche{
+		width: 100%
+	}
+	
+@media all and (max-width: 1024px){
+	.page{
+		width: auto;
+
+		}
+
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
