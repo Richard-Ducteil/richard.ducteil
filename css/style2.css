@@ -218,11 +218,13 @@ hr{
 		
 	}
 	.date{
-
+		margin: 0;
+		padding:0;
 		display: inline-block;
 	}
 	.formation{
-		flex-direction: column;
+		display: inline-block;
+		
 
 	}
 	.cote-droit{
@@ -235,6 +237,8 @@ hr{
 		text-align: center;
 	}
 	.lab1{
+		padding: 0;
+		margin: 0;
 		display: inline-block;
 		font-size: 19px;
 
