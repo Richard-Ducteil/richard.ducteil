@@ -111,7 +111,8 @@ i{
 
 }
 .trait{ /* classe spécifique */
-	padding:12px;
+	margin: 0px;
+	padding:0px;
 	border-top: 2px solid;/* épaisseur du trait */
 	width: 60px;/* pour faire un petit trait en bas de developpeur web junior */
 	color: #FE9C00;/* couleur orange */
@@ -203,8 +204,6 @@ hr{
 	}
 	.titre2{
 
-		display:inline-block; 
-		font-size: 24px;
 	}
 
 	.page{
@@ -233,9 +232,7 @@ hr{
 		margin-left: 0px;
 
 	}
-	.titre{
-		text-align: center;
-	}
+	
 	.lab1{
 		padding: 0;
 		margin: 0;
