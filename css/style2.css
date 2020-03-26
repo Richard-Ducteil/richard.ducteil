@@ -110,12 +110,13 @@ i{
 
 }
 .trait{ /* classe spécifique */
-	margin: 5px;
+
+	
 	padding-bottom: 3px;
 	border-top: 2px solid;/* épaisseur du trait */
-	width: 60px;/* pour faire un petit trait en bas de developpeur web junior */
+	width: 65px;/* pour faire un petit trait en bas de developpeur web junior */
 	color: #FE9C00;/* couleur orange */
-	padding-top: 25px; /* ajustement de la hauteur */
+	padding-top: 20px; /* ajustement de la hauteur */
 	
 }
 hr{
@@ -142,7 +143,7 @@ hr{
 .formation{
 	display: flex;
 	justify-content: start;
-	padding: 20px;
+	
 
 }/* les dates du CV côté droite */
 .date{
