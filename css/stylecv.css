@@ -1,0 +1,191 @@
+body{
+	margin:0 0 0 0;
+	padding: 0 0 0 0;
+	display: flex;
+
+	
+}
+.bloc_page{
+	display: flex;
+	font-family: "Montserra" sans-serif;
+}
+.marge{
+	position: relative;
+	 background-color: #EDEFEF;
+	 display: flex;
+	 flex-direction: column;
+	 width: 30%;
+	 justify-content: space-around;
+}
+.photo{
+	background-image: url(image/photop.jpg);
+	display: flex;
+	justify-content: center;
+	margin: 30px;
+}
+.photoP{
+	max-height: 200px;
+    max-width: 200px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 12px #555
+}
+.marge h2{
+	background-color: #EDEFEF;
+    color: #3e141a;
+    text-align: center;
+    text-transform: uppercase
+}
+h2{
+	
+	display: block;
+    font-size: 25px;
+    font-weight: bold;
+}
+.contact h2{
+	background-color: white;
+}
+.apropos h2{
+	background-color: white;
+}
+.loisirs h2{
+	background-color: white;
+}
+
+article{
+	display: block;
+	font-family: "Montserra " sans-serif;
+	font-size: 18px;
+}
+
+.contact p{
+	margin-left: 20px;
+}
+.apropos{
+	flex-grow: 2
+}
+.apropos p {
+	margin-left: 20px;
+}
+.logo{
+	display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    color: #3e141a;
+}
+.logo_border{
+	border: 2px solid black;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+
+main{
+	display: block;
+	
+	padding: 30px;
+}
+.forma{
+
+}
+header{
+	height: 100px;
+	display: block;
+}
+h1{
+	display: block;
+	font-size: 35px;
+	font-weight: bold;
+}
+.nom{
+	text-transform: uppercase;
+	font-size: 40px;
+}
+.prenom{
+	color: #3e141a;
+}
+.trait{
+	max-width: 80px;
+	border-bottom:0.5px solid #3e141a;
+}
+section{
+	display: block;
+}
+div{
+	display: block;
+}
+.titre{
+	display: flex;
+    align-items: baseline;
+    border-bottom: 1px solid #3e141a ;
+    margin: 40px 0 40px 0;
+}
+main h2{
+	margin-left: 20px;
+	text-transform:uppercase;
+}
+.first{
+	display: flex;
+    justify-content: start;
+    padding: 20px;
+    font-size: 18px;
+}
+.date{
+	min-width: 250px;
+    display: flex;
+
+}
+.cercle{
+	width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 3px solid #3e141a;
+    margin: 3px 20px;
+}
+.rond{
+	width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background: #3e141a;
+    margin: 2px 20px;
+    text-align: left;
+}
+.point{
+	width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #3e141a;
+    margin: 2px;
+}
+.forma{
+	text-transform: uppercase;
+    font-weight: bold;
+}
+.patronne{
+	display: flex;
+	flex-direction: column;
+}
+@media (max-width:1000px){
+	
+	.marge{
+		display: none;
+		width: 100%;
+		flex-direction: row-reverse;
+	}
+	.bloc_page{
+		width: 100%;
+		flex-direction: column-reverse;
+	}
+	.first{
+		flex-direction: column;
+	}
+	.date{
+		flex-direction: row;
+		margin-bottom: 20px;
+	}
+}
+@media (max-width: 480px){
+	header{
+		margin-bottom: 40px;
+		font-size: 10px;
+	}
+}
